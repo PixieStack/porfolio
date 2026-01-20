@@ -1,4 +1,5 @@
 import { ArrowDown, Database, Code2 } from "lucide-react";
+import profile from "../assets/profile.jpg";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
 
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
             Hi, I'm <br />
-            <span className="text-primary">Thembinkosi</span>{" "}
+            <span className="text-primary">Thembinkosi</span> {" "}
             <span className="text-primary">Thwala</span>
           </h1>
 
@@ -52,8 +53,8 @@ export default function Home() {
           {/* Profile Ring */}
           <div className="relative w-72 h-72 rounded-full border-4 border-primary p-2">
             <img
-              src="/profile.jpg"
-              alt="Profile"
+              src={profile}
+              alt="Thembinkosi Thwala — profile"
               className="w-full h-full rounded-full object-cover"
             />
 
