@@ -1,5 +1,5 @@
 import { ArrowDown, Database, Code2 } from "lucide-react";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.jpeg";
 
 export default function Home() {
   return (
